@@ -11,10 +11,10 @@ export default function Admin() {
   const [subs, setSubs] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/getContacts")
+    axios.get("https://fullstack-web-app-l18y.onrender.com/getContacts")
       .then(res => setContacts(res.data));
 
-    axios.get("http://localhost:5000/getSubscribers")
+    axios.get("https://fullstack-web-app-l18y.onrender.com/getSubscribers")
       .then(res => setSubs(res.data));
   }, []);
 
@@ -49,7 +49,7 @@ export default function Admin() {
 
         <button
           onClick={() => {
-            axios.post("http://localhost:5000/addProject", project);
+            axios.post("https://fullstack-web-app-l18y.onrender.com/addProject", project);
             alert("Project Added");
           }}
         >
@@ -91,7 +91,7 @@ export default function Admin() {
 
         <button
           onClick={() => {
-            axios.post("http://localhost:5000/addClient", client);
+            axios.post("https://fullstack-web-app-l18y.onrender.com/addClient", client);
             alert("Client Added");
           }}
         >

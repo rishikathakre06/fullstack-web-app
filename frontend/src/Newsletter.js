@@ -20,8 +20,11 @@ export default function Newsletter() {
             return;
           }
 
-          axios.post("http://localhost:5000/subscribe", { email });
-          alert("Subscribed");
+         axios.post(
+  "https://fullstack-web-app-l18y.onrender.com/subscribe",
+  { email }
+);
+alert("Subscribed");
         }}
       >
         Subscribe

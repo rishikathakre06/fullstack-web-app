@@ -5,7 +5,8 @@ export default function Projects() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/getProjects")
+    axios.get("https://fullstack-web-app-l18y.onrender.com/getProjects")
+
       .then(res => setData(res.data));
   }, []);
 

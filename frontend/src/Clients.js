@@ -5,7 +5,8 @@ export default function Clients() {
   const [clients, setClients] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/getClients")
+    axios.get("https://fullstack-web-app-l18y.onrender.com/getClients")
+
       .then(res => setClients(res.data));
   }, []);
 

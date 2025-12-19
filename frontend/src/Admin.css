@@ -1,0 +1,51 @@
+
+.admin-wrapper {
+  background: #f4f6f9;
+  padding: 40px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.admin-wrapper h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.admin-section {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.admin-section input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.admin-section button {
+  background: #ff7a18;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.admin-section button:hover {
+  background: #e66a10;
+}
+
+.admin-list div {
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+}
